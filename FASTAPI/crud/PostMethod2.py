@@ -31,3 +31,5 @@ def newstudent(studentinfo:StudStruct):
     collection.insert_one(sinfo)
 
     return{"message":"new student added succesfully in student table "}
+
+    

@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Satej Rajeshirke",
+        "roll": 101,
+        "age": 25,
+        "email": "satejraj@gmail.com"
+    },
+    {
+        "name": "Rahul",
+        "roll": 102,
+        "age": 24,
+        "email": "rahul@gmail.com"
+    },
+    {
+        "name": "Amit",
+        "roll": 103,
+        "age": 22,
+        "email": "amit@gmail.com"
+    }
+]

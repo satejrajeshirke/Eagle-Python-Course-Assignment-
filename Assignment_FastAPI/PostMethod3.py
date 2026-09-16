@@ -49,3 +49,4 @@ def register(student:Student):
         "massage":"new student succesfully added in mongo and json",
         "student":student
     }
+
