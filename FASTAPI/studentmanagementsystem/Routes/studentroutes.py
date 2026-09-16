@@ -12,11 +12,13 @@ def createstd(student:StudentStruct):
     sname=student.name
     sroll=student.roll
     sage=student.age
+    semail=student.email
 
     sinfo = {
         "name":sname,
         "roll":sroll,
-        "age":sage
+        "age":sage,
+        "email":semail
     }
 
     collection.insert_one(sinfo)
@@ -44,6 +46,9 @@ def updatestudent(roll:int,studentinfo:UpdateStruct):
 
             if studentinfo.age != None:
                 data["age"]=studentinfo.age
+
+            if studentinfo.email != None:
+                data["email"]=studentinfo.email
 
             collection.update_one(
                 {"roll":roll},

@@ -1,4 +1,4 @@
-from pydantic import BaseModel,Field
+from pydantic import BaseModel,Field,EmailStr
 from typing import Annotated,Optional
 
 
@@ -11,7 +11,9 @@ class StudentStruct(BaseModel):
     roll: Annotated[int, Field(title="Enter Your Roll")]
 
     age: Annotated[int, Field(title="Enter Your Age")]
-    
+
+    email: Annotated[EmailStr, Field(title="Enter Your Email")]
+
 
 
 
