@@ -11,3 +11,9 @@ connectionstring = MongoClient(url)
 Database=connectionstring["student123"]
 
 collection=Database["allstudents1"]
+
+
+
+
+
+
