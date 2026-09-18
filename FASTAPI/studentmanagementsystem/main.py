@@ -10,6 +10,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:5173",
         "https://student-mgmt-frontend-tau.vercel.app",
+        "https://student-mgmt-frontend-9l34f.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
