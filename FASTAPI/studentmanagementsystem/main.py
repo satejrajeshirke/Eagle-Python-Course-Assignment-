@@ -9,9 +9,8 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "https://student-mgmt-frontend-tau.vercel.app",
-        "https://student-mgmt-frontend-9l34f.vercel.app",
     ],
+    allow_origin_regex=r"https://student-mgmt-frontend.*\.vercel\.app",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
